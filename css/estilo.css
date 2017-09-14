@@ -110,3 +110,39 @@ header{
 	text-align: center;
 	text-decoration: none;
 }
+footer{
+	background-image: url(../img/fundo-rodape.png);
+	clear: both;
+	padding: 20px 0;
+
+}
+footer .container{
+	position: relative;
+}
+.social{
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+.social a{
+	/*Tamanho da imagem*/
+	height: 32px;
+	width: 32px;
+
+	/*Image Replacement*/
+	display: block;
+	text-indent: -9999px;
+}
+.social a[href*="facebook.com"]{
+	background: url(../img/facebook.png);
+}
+.social a[href*="twitter.com"]{
+	background: url(../img/twitter.png);
+}
+.social a[href*="plus.google.com"]{
+	background: url(../img/googleplus.png);
+}
+.social li{
+	float: left;
+	margin-left: 25px;
+}
