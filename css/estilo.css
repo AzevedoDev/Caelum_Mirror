@@ -13,7 +13,7 @@ header{
 	padding: 8px 35px 0 0;
 	position: absolute;
 	top: 0;
-	right: 0; 
+	right: 0;
 }
 .menu-opcoes{
 	position: absolute;
@@ -40,9 +40,9 @@ header{
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-right: 10px;
-	width: 230px; 
+	width: 230px;
 }
-.busca h2, 
+.busca h2,
 .busca form,
 .menu-departamentos h2{
 	margin: 10px;
@@ -163,4 +163,47 @@ footer .container{
 }
 .menu-departamentos li li a:before{
 	content: '- ';
+}
+#mirror{
+	background-image: url(../img/sobre-background.jpg);
+
+}
+.intro h2{
+	font-size: 200%;
+	font-weight: bold;
+	border-bottom: 2px solid #333333;
+	margin-top: 30px;
+	padding: 10px;
+}
+.intro p{
+	padding: 10px 45px;
+	text-indent: 15px;
+}
+.sobre_fig{
+	background-color: #f2eded;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 15px;
+	margin: 30px;
+}
+.sobre_fig figcaption{
+	font-style: italic;
+	margin-top: 10px;
+}
+.centro-distribuicao{
+	margin-left: auto;
+	margin-right: auto;
+	width: 640px;
+	display: block;
+}
+#historia{
+	font-size: 200%;
+	font-weight: bold;
+	border-bottom: 2px solid #333333;
+	margin-top: 30px;
+	padding: 10px;
+}
+.familia-pelho {
+	float: right;
+	margin: 0 0 10px 10px;
 }
