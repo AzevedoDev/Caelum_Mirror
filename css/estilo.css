@@ -34,7 +34,10 @@ header{
 	margin: 0 auto;
 	width: 940px;
 }
-
+.busca{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
 .busca, .menu-departamentos{
 	background-color: #dcdcdc;
 	font-weight: bold;
@@ -78,6 +81,8 @@ header{
 	padding-bottom: 10px;
 }
 .painel{
+	border-radius: 4px;
+	box-shadow: 1px 1px 4px #999;
 	margin: 10px 0;
 	padding: 10px;
 	width: 445px;
@@ -85,10 +90,12 @@ header{
 .novidades{
 	float: left;
 	background-color: #f5dcdc;
+	background: linear-gradient(#f5dcdc, #bebef4);
 }
 .mais-vendidos{
 	float: right;
 	background-color: #dcdcf5;
+	background: linear-gradient(#dcdcf5, #f4bebe);
 }
 .painel li{
 	display: inline-block;
@@ -98,7 +105,14 @@ header{
 	margin: 2px;
 	padding-bottom: 10px;
 }
+.painel li:hover{
+	background-color:  rgba(255,255,255,0.8);
+	box-shadow: 0 0 5px #333;
+	transition: box-shadow 0.7s;
+	transform: scale(1.2) rotate(-5deg);
+}
 .painel h2{
+	text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
 	font-size: 24px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -205,13 +219,13 @@ footer .container{
 	float: right;
 	margin: 0 0 10px 10px;
 }
-p:first-letter{
+.intro p:first-letter{
 	font-weight: bold;
 }
-h1 + p{
+h2 + p{
 	text-indent: 0;
 }
-p:first-line{
+.intro p:first-line{
 	font-variant: small-caps;
 }
 .diferenciais{
