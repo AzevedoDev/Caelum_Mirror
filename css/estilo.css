@@ -164,19 +164,25 @@ footer .container{
 .menu-departamentos li li a:before{
 	content: '- ';
 }
-#mirror{
-	background-image: url(../img/sobre-background.jpg);
-
+.intro{
 }
 .intro h2{
-	font-size: 200%;
-	font-weight: bold;
-	border-bottom: 2px solid #333333;
 	margin-top: 30px;
+	font-weight: bold;
+	font-size: 200%;
+	background-image: url(../img/sobre-background.jpg);
 	padding: 10px;
+
+}
+.intro h3{
+	padding-top: 10px;
+	font-weight: bold;
+	margin-top: 30px;
+	border-bottom: 2px solid #333333;
+	font-size: 150%;
 }
 .intro p{
-	padding: 10px 45px;
+	padding: 20px 45px 0 45px;
 	text-indent: 15px;
 }
 .sobre_fig{
@@ -194,16 +200,23 @@ footer .container{
 	margin-left: auto;
 	margin-right: auto;
 	width: 640px;
-	display: block;
-}
-#historia{
-	font-size: 200%;
-	font-weight: bold;
-	border-bottom: 2px solid #333333;
-	margin-top: 30px;
-	padding: 10px;
 }
 .familia-pelho {
 	float: right;
 	margin: 0 0 10px 10px;
+}
+p:first-letter{
+	font-weight: bold;
+}
+h1 + p{
+	text-indent: 0;
+}
+p:first-line{
+	font-variant: small-caps;
+}
+.diferenciais{
+	padding: 20px 15px;
+	list-style: initial;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
