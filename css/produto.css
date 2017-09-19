@@ -1,0 +1,52 @@
+.cores label:after{
+  content: '';
+  display: block;
+
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+label[for=verde]:after{
+  background: #33cc66;
+}
+label[for=rosa]:after{
+  background: #ff6666;
+}
+label[for=azul]:after{
+  background: #6666ff;
+}
+.cores input:checked + label:after{
+  border: 6px solid rgba(0, 0, 0, 0.3);
+}
+.cores input[type=radio]{
+  display: none;
+}
+.cores input:not(:checked) + label img{
+  display: none;
+}
+.cores{
+  position: relative;
+  padding-top: 90px;
+}
+
+.cores label:after{
+  position: absolute;
+  top: 30px;
+}
+label[for=verde]:after{
+  left: 0;
+}
+label[for=rosa]:after{
+  left: 60px;
+}
+label[for=azul]:after{
+  left: 120px;
+}
+.cores label img{
+  display: block;
+  max-width: 100%;
+}

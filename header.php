@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/estilo.css">
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" type="text/css" href="css/mobile.css" media="(max-width: 320px)">
+		<link rel="stylesheet" href="css/produto.css">
 		<title>Mirror Fashion</title>
 				<!--[if it IE9]>
 				<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
