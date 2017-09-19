@@ -1,5 +1,4 @@
 
-	<body>
 		<?php include("header.php");?>
 
 		<div class="container destaque">
@@ -8,7 +7,7 @@
 					<input type="search">
 					<input type="image" src="img/busca.png">
 				</form>
-			</section> 
+			</section>
 			<!--   Fim da Bsuca  -->
 			<section class="menu-departamentos">
 				<h2>Departamentos</h2>
@@ -34,7 +33,7 @@
 				</nav>
 			</section>
 			<!-- Fim .menu-departamnetos -->
-			<img src="img/destaque-home.png" alt="Promoção: Big City Night">
+			<img class="destaque" src="img/destaque-home.png" alt="Promoção: Big City Night">
 		</div>
 		<!-- Fim .container .destaque -->
 		<div class="container">
@@ -153,4 +152,3 @@
 		</section>
 		</div>
 		<?php include("footer.php"); ?>
-	

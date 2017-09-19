@@ -5,7 +5,7 @@ header h1{
 	text-align: center;
 }
 header h1 img{
-	max-width: 50%; 
+	max-width: 50%;
 }
 .sacola{
 	display: none;
@@ -18,7 +18,13 @@ header h1 img{
 	display: inline-block;
 	margin: 5px;
 }
-
+.busca,
+.menu-departamentos,
+.destaque,
+.sobre_fig img{
+	margin-right: 0px;
+	width: 100%;
+}
 .painel{
 	width: auto;
 }
@@ -26,22 +32,5 @@ header h1 img{
 	width: 30%;
 }
 .painel img{
-	width: 100%;
-}
-/*.sobre-fig figure img{
-	margin-right: 0px;
-	width: 100%;*/
-
-/*.centro-distribuicao{
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;*/
-}
-
-.busca,
-.menu-departamentos,
-.destaque,
-.sobre_fig img{
-	margin-right: 0px;
 	width: 100%;
 }

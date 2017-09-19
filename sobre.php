@@ -12,9 +12,9 @@
 			Nosso centro de distribuição fica em <a href="https://www.google.com.br/maps/place/Jacarezinho,+PR,+86400-000/@-23.1588621,-49.9858914,14z/data=!3m1!4b1!4m5!3m4!1s0x94c026544d26f253:0xc66dac11dad56f73!8m2!3d-23.157939!4d-49.9777202">Jacarezinho, no Paraná</a>. De lá, saem 48 aviões que
 			distribuem nossos produtos às casas do mundo todo. Nosso centro de distribuição:</p>
 
-				<div class="centro-distribuicao">
+				<div class="container centro-distribuicao">
 					<figure class="sobre_fig">
-						<img id="teste" src="img/centro-distribuicao.png">
+						<img src="img/centro-distribuicao.png">
 						<figcaption>Centro de distribuição da Mirror Fashion</figcaption>
 					</figure>
 				</div>
