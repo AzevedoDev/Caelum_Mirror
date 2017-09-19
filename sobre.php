@@ -1,36 +1,11 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/estilo.css">
-		<meta charset="utf-8">
-		<title>Mirror Fashion</title>
-	</head>
-	<body>
-		<header class="container">
-			<h1><a href="index.html"><img src="img/logo.png" alt="mirror fashion"></a></h1>
-
-			<p class="sacola">
-				Nenhum item na sacola
-			</p>
-
-			<nav class="menu-opcoes">
-				<ul>
-					<li><a href="#">Sua Conta</a></li>
-					<li><a href="#">Lista de Desejos</a></li>
-					<li><a href="#">Cartão de Fidelidade</a></li>
-					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="#">Ajuda</a></li>
-				</ul>
-			</nav>
-		</header>
+<?php include("header.php"); ?>
 
 		<div class="container intro">
 			<h2 id="mirror">A Mirror Fashion</h2>
 
 			<p>
 			A <strong>Mirror Fashion</strong> é a maior empresa comércio eletrônico no segmento de moda em todo o mundo.
-			Fundada em 1932, possui filiais em 124 países, sendo líder de mercado com mais de 90% de
+			Fundada há <?php print date("Y") - 1932; ?> anos, possui filiais em 124 países, sendo líder de mercado com mais de 90% de
 			participação em 118 deles.</p>
 
 			<p>
@@ -39,7 +14,7 @@
 
 				<div class="centro-distribuicao">
 					<figure class="sobre_fig">
-						<img src="img/centro-distribuicao.png">
+						<img id="teste" src="img/centro-distribuicao.png">
 						<figcaption>Centro de distribuição da Mirror Fashion</figcaption>
 					</figure>
 				</div>
@@ -83,7 +58,7 @@
 
 	</div>
 		<div class="container intro">
-			<h3>Diferenciais</h2>
+			<h3>Diferenciais</h3>
 				<ul class="diferenciais">
 					<li>Menor preço do varejo, garantido</li>
 					<li>Se você achar uma loja mais barata, leva o produto de graça</li>
@@ -94,18 +69,6 @@
 					<li>Presente em 124 países</li>
 					<li>Mais de um milhão de funcionários em todo o mundo</li>
 				</ul>
-			</div>
+		</div>
 
-				<footer>
-					<div class="container">
-						<img src="img/logo-rodape.png" alt=" Logo Mirror Fashion">
-
-						<ul class="social">
-							<li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
-							<li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
-							<li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
-						</ul>
-					</div>
-				</footer>
-	</body>
-</html>
+				<?php include("footer.php"); ?>

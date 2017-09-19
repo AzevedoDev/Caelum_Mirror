@@ -1,32 +1,7 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/estilo.css">
-		<title>Mirror Fashion</title>
-				<!--[if it IE9]>
-				<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-				[endif] -->
-	</head>
+
 	<body>
-		<header class="container">
-			<h1><img src="img/logo.png" alt="mirror fashion"></h1>
+		<?php include("header.php");?>
 
-			<p class="sacola">
-				Nenhum item na sacola
-			</p>
-
-			<nav class="menu-opcoes">
-				<ul>
-					<li><a href="#">Sua Conta</a></li>
-					<li><a href="#">Lista de Desejos</a></li>
-					<li><a href="#">Cartão de Fidelidade</a></li>
-					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="#">Ajuda</a></li>
-				</ul>
-			</nav>
-		</header>
 		<div class="container destaque">
 			<section class="busca">
 				<form>
@@ -177,16 +152,5 @@
 			</ol>
 		</section>
 		</div>
-		<footer>
-			<div class="container">
-				<img src="img/logo-rodape.png" alt=" Logo Mirror Fashion">
-
-				<ul class="social">
-					<li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
-					<li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
-					<li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
-				</ul>
-			</div>
-		</footer>
-	</body>
-</html>
+		<?php include("footer.php"); ?>
+	
