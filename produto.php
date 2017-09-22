@@ -6,9 +6,12 @@
 				<h1>Fuzzy Cardigan</h1>
 				<p>por apenas R$ 129.00</p>
 
-				<form>
+				<form action="checkout.php" method="post">
 					<fieldset class="cores">
 						<legend>Escolha a Cor:</legend>
+
+						<input type="hidden" name="nome" value="Fuzzy Cardigan">
+						<input type="hidden" name="preco" value="129,00">
 
 						<input type="radio" name="cor" value="verde" id="verde" checked>
 						<label for="verde">
@@ -25,7 +28,8 @@
 					</fieldset>
 					<fieldset class="tamanhos">
 						<legend>Escolha o Tamnaho</legend>
-						<input type="range" min="36" max="46" name="tamanho" step="2" value="42" id="tamanhoss">
+						<input type="range" min="36" max="46" name="tamanho" step="2" value="42" id="tamanho">
+						<output for="tamanho" name="valortamanho">42</output>
 					</fieldset>
 					<input type="submit" class="comprar" value="comprar">
 				</form>
@@ -62,4 +66,5 @@
 				</tbody>
 			</table>
 	</div>
+	<script src="js/produto.js"></script>
 <?php include("footer.php");?>
