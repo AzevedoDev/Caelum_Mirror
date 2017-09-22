@@ -151,4 +151,5 @@
 			</ol>
 		</section>
 		</div>
+		<script src="banner.js"></script>
 		<?php include("footer.php"); ?>
