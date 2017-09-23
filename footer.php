@@ -10,5 +10,7 @@
 			</div>
 		</footer>
 		</body>
+		<script src="js/jquery.js"></script>
 		<script src="js/banner.js"></script>
+		<script src="js/home.js"></script>
 </html>

@@ -38,11 +38,27 @@
 		<!-- Fim .container .destaque -->
 		<div class="container">
 			<!-- Paineis de novidades e mais vendidos entrão aqui dentro -->
-		<section class="painel novidades">
+		<section class="painel novidades painel-compacto">
 			<h2>Novidades</h2>
 			<ol>
 
 				<!-- primeiro produto -->
+				<li>
+				<a href="produto.html">
+					<figure>
+						<img src="img/produtos/miniatura1.png">
+						<figcaption>Fuzz Cardigan por 129,90</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+					<a href="produto.html">
+						<figure>
+							<img src="img/produtos/miniatura1.png">
+							<figcaption>Fuzz Cardigan por 129,90</figcaption>
+						</figure>
+					</a>
+				</li>
 				<li>
 					<a href="produto.html">
 						<figure>
@@ -93,8 +109,10 @@
 				</li>
 				<!-- coloque mais produtos aqui! -->
 			</ol>
+			<button type="button">Mostrar mais</button>
+
 		</section>
-		<section class="painel mais-vendidos">
+		<section class="painel mais-vendidos painel-compacto">
 			<h2>Mais Vendidos</h2>
 			<ol>
 
@@ -134,6 +152,30 @@
 				<li>
 					<a href="produto.html">
 						<figure>
+							<img src="img/produtos/miniatura10.png">
+							<figcaption>Fuzz Cardigan por 129,90</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a href="produto.html">
+						<figure>
+							<img src="img/produtos/miniatura10.png">
+							<figcaption>Fuzz Cardigan por 129,90</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a href="produto.html">
+						<figure>
+							<img src="img/produtos/miniatura10.png">
+							<figcaption>Fuzz Cardigan por 129,90</figcaption>
+						</figure>
+					</a>
+				</li>	
+				<li>
+					<a href="produto.html">
+						<figure>
 							<img src="img/produtos/miniatura11.png">
 							<figcaption>Fuzz Cardigan por 129,90</figcaption>
 						</figure>
@@ -149,7 +191,7 @@
 				</li>
 				<!-- coloque mais produtos aqui! -->
 			</ol>
+			<button type="button">Mostrar mais</button>
 		</section>
 		</div>
-		<script src="banner.js"></script>
 		<?php include("footer.php"); ?>
